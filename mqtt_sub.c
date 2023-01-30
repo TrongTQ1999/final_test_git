@@ -48,5 +48,8 @@ int main()
 	mosquitto_destroy(mosq);
 	mosquitto_lib_cleanup();
 
+	printf("F1");
+	printf("F2");
+
 	return 0;
 }
